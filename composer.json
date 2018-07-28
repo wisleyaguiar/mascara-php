@@ -2,9 +2,9 @@
   "name": "wisleyaguiar/mascara-php",
   "type": "library",
   "description": "Function return string formatted",
-  "keywords": ["log","logging"],
+  "keywords": ["mask","strings"],
   "homepage": "https://github.com/wisleyaguiar/mascara-php",
-  "license": "GNU",
+  "license": "AGPL-3.0-only",
   "authors": [
     {
       "name": "Wisley Aguiar",
@@ -14,7 +14,8 @@
     }
   ],
   "require": {
-    "php": ">=5.3.0"
+    "php": ">=5.3.0",
+    "wisleyaguiar/mascara-php":"dev-master"
   },
   "autoload": {
     "psr-0": {
